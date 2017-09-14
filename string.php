@@ -12,12 +12,15 @@ echo "<h1>There are four ways to define a string varible!</h1>";
 
 echo "<h2>1. Use single quotes to improve PHP efficiency</h2>";
 
-$f_name = "Bongo";
-$l_name = "Zhao";
+$f_name = 'Bong';
+$l_name = 'Zhao';
 echo $f_name;
 echo " ";
 echo $l_name;
 echo "<br>";
+
+$f_name = "Bong";
+$l_name = "Zhao";
 
 echo "<h2>2. Use doule quotes for variable substitution</h2>";
 $name = "Name: $f_name";
